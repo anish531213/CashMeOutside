@@ -8,6 +8,8 @@ target 'CashMeOutside' do
   # Pods for CashMeOutside
 	pod 'GoogleMaps'
   	pod 'GooglePlaces'
+	pod 'Firebase/Core'
+
 
   target 'CashMeOutsideTests' do
     inherit! :search_paths
