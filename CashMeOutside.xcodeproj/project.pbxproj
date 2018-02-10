@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F88E50E8202F985700C06E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E50E7202F985700C06E12 /* AppDelegate.swift */; };
+		F88E50EA202F985700C06E12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E50E9202F985700C06E12 /* ViewController.swift */; };
+		F88E50ED202F985700C06E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88E50EB202F985700C06E12 /* Main.storyboard */; };
+		F88E50EF202F985800C06E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88E50EE202F985800C06E12 /* Assets.xcassets */; };
+		F88E50F2202F985800C06E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88E50F0202F985800C06E12 /* LaunchScreen.storyboard */; };
+		F88E50FD202F985800C06E12 /* CashMeOutsideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E50FC202F985800C06E12 /* CashMeOutsideTests.swift */; };
+		F88E5108202F985800C06E12 /* CashMeOutsideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E5107202F985800C06E12 /* CashMeOutsideUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F88E50F9202F985800C06E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F88E50DC202F985700C06E12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F88E50E3202F985700C06E12;
+			remoteInfo = CashMeOutside;
+		};
+		F88E5104202F985800C06E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F88E50DC202F985700C06E12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F88E50E3202F985700C06E12;
+			remoteInfo = CashMeOutside;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F88E50E4202F985700C06E12 /* CashMeOutside.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashMeOutside.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88E50E7202F985700C06E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F88E50E9202F985700C06E12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F88E50EC202F985700C06E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F88E50EE202F985800C06E12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F88E50F1202F985800C06E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F88E50F3202F985800C06E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F88E50F8202F985800C06E12 /* CashMeOutsideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashMeOutsideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88E50FC202F985800C06E12 /* CashMeOutsideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashMeOutsideTests.swift; sourceTree = "<group>"; };
+		F88E50FE202F985800C06E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F88E5103202F985800C06E12 /* CashMeOutsideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashMeOutsideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88E5107202F985800C06E12 /* CashMeOutsideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashMeOutsideUITests.swift; sourceTree = "<group>"; };
+		F88E5109202F985800C06E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F88E50E1202F985700C06E12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88E50F5202F985800C06E12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88E5100202F985800C06E12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F88E50DB202F985700C06E12 = {
+			isa = PBXGroup;
+			children = (
+				F88E50E6202F985700C06E12 /* CashMeOutside */,
+				F88E50FB202F985800C06E12 /* CashMeOutsideTests */,
+				F88E5106202F985800C06E12 /* CashMeOutsideUITests */,
+				F88E50E5202F985700C06E12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F88E50E5202F985700C06E12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F88E50E4202F985700C06E12 /* CashMeOutside.app */,
+				F88E50F8202F985800C06E12 /* CashMeOutsideTests.xctest */,
+				F88E5103202F985800C06E12 /* CashMeOutsideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F88E50E6202F985700C06E12 /* CashMeOutside */ = {
+			isa = PBXGroup;
+			children = (
+				F88E50E7202F985700C06E12 /* AppDelegate.swift */,
+				F88E50E9202F985700C06E12 /* ViewController.swift */,
+				F88E50EB202F985700C06E12 /* Main.storyboard */,
+				F88E50EE202F985800C06E12 /* Assets.xcassets */,
+				F88E50F0202F985800C06E12 /* LaunchScreen.storyboard */,
+				F88E50F3202F985800C06E12 /* Info.plist */,
+			);
+			path = CashMeOutside;
+			sourceTree = "<group>";
+		};
+		F88E50FB202F985800C06E12 /* CashMeOutsideTests */ = {
+			isa = PBXGroup;
+			children = (
+				F88E50FC202F985800C06E12 /* CashMeOutsideTests.swift */,
+				F88E50FE202F985800C06E12 /* Info.plist */,
+			);
+			path = CashMeOutsideTests;
+			sourceTree = "<group>";
+		};
+		F88E5106202F985800C06E12 /* CashMeOutsideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F88E5107202F985800C06E12 /* CashMeOutsideUITests.swift */,
+				F88E5109202F985800C06E12 /* Info.plist */,
+			);
+			path = CashMeOutsideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F88E50E3202F985700C06E12 /* CashMeOutside */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F88E510C202F985800C06E12 /* Build configuration list for PBXNativeTarget "CashMeOutside" */;
+			buildPhases = (
+				F88E50E0202F985700C06E12 /* Sources */,
+				F88E50E1202F985700C06E12 /* Frameworks */,
+				F88E50E2202F985700C06E12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashMeOutside;
+			productName = CashMeOutside;
+			productReference = F88E50E4202F985700C06E12 /* CashMeOutside.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F88E50F7202F985800C06E12 /* CashMeOutsideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F88E510F202F985800C06E12 /* Build configuration list for PBXNativeTarget "CashMeOutsideTests" */;
+			buildPhases = (
+				F88E50F4202F985800C06E12 /* Sources */,
+				F88E50F5202F985800C06E12 /* Frameworks */,
+				F88E50F6202F985800C06E12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F88E50FA202F985800C06E12 /* PBXTargetDependency */,
+			);
+			name = CashMeOutsideTests;
+			productName = CashMeOutsideTests;
+			productReference = F88E50F8202F985800C06E12 /* CashMeOutsideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F88E5102202F985800C06E12 /* CashMeOutsideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F88E5112202F985800C06E12 /* Build configuration list for PBXNativeTarget "CashMeOutsideUITests" */;
+			buildPhases = (
+				F88E50FF202F985800C06E12 /* Sources */,
+				F88E5100202F985800C06E12 /* Frameworks */,
+				F88E5101202F985800C06E12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F88E5105202F985800C06E12 /* PBXTargetDependency */,
+			);
+			name = CashMeOutsideUITests;
+			productName = CashMeOutsideUITests;
+			productReference = F88E5103202F985800C06E12 /* CashMeOutsideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F88E50DC202F985700C06E12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Anish Adhikari";
+				TargetAttributes = {
+					F88E50E3202F985700C06E12 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F88E50F7202F985800C06E12 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F88E50E3202F985700C06E12;
+					};
+					F88E5102202F985800C06E12 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F88E50E3202F985700C06E12;
+					};
+				};
+			};
+			buildConfigurationList = F88E50DF202F985700C06E12 /* Build configuration list for PBXProject "CashMeOutside" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F88E50DB202F985700C06E12;
+			productRefGroup = F88E50E5202F985700C06E12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F88E50E3202F985700C06E12 /* CashMeOutside */,
+				F88E50F7202F985800C06E12 /* CashMeOutsideTests */,
+				F88E5102202F985800C06E12 /* CashMeOutsideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F88E50E2202F985700C06E12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88E50F2202F985800C06E12 /* LaunchScreen.storyboard in Resources */,
+				F88E50EF202F985800C06E12 /* Assets.xcassets in Resources */,
+				F88E50ED202F985700C06E12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88E50F6202F985800C06E12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88E5101202F985800C06E12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F88E50E0202F985700C06E12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88E50EA202F985700C06E12 /* ViewController.swift in Sources */,
+				F88E50E8202F985700C06E12 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88E50F4202F985800C06E12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88E50FD202F985800C06E12 /* CashMeOutsideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88E50FF202F985800C06E12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88E5108202F985800C06E12 /* CashMeOutsideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F88E50FA202F985800C06E12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F88E50E3202F985700C06E12 /* CashMeOutside */;
+			targetProxy = F88E50F9202F985800C06E12 /* PBXContainerItemProxy */;
+		};
+		F88E5105202F985800C06E12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F88E50E3202F985700C06E12 /* CashMeOutside */;
+			targetProxy = F88E5104202F985800C06E12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F88E50EB202F985700C06E12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F88E50EC202F985700C06E12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F88E50F0202F985800C06E12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F88E50F1202F985800C06E12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F88E510A202F985800C06E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F88E510B202F985800C06E12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F88E510D202F985800C06E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JTJHCFQH8;
+				INFOPLIST_FILE = CashMeOutside/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dchack.CashMeOutside;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F88E510E202F985800C06E12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JTJHCFQH8;
+				INFOPLIST_FILE = CashMeOutside/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dchack.CashMeOutside;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F88E5110202F985800C06E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JTJHCFQH8;
+				INFOPLIST_FILE = CashMeOutsideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dchack.CashMeOutsideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashMeOutside.app/CashMeOutside";
+			};
+			name = Debug;
+		};
+		F88E5111202F985800C06E12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JTJHCFQH8;
+				INFOPLIST_FILE = CashMeOutsideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dchack.CashMeOutsideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashMeOutside.app/CashMeOutside";
+			};
+			name = Release;
+		};
+		F88E5113202F985800C06E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JTJHCFQH8;
+				INFOPLIST_FILE = CashMeOutsideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dchack.CashMeOutsideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashMeOutside;
+			};
+			name = Debug;
+		};
+		F88E5114202F985800C06E12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JTJHCFQH8;
+				INFOPLIST_FILE = CashMeOutsideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dchack.CashMeOutsideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashMeOutside;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F88E50DF202F985700C06E12 /* Build configuration list for PBXProject "CashMeOutside" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88E510A202F985800C06E12 /* Debug */,
+				F88E510B202F985800C06E12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F88E510C202F985800C06E12 /* Build configuration list for PBXNativeTarget "CashMeOutside" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88E510D202F985800C06E12 /* Debug */,
+				F88E510E202F985800C06E12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F88E510F202F985800C06E12 /* Build configuration list for PBXNativeTarget "CashMeOutsideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88E5110202F985800C06E12 /* Debug */,
+				F88E5111202F985800C06E12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F88E5112202F985800C06E12 /* Build configuration list for PBXNativeTarget "CashMeOutsideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88E5113202F985800C06E12 /* Debug */,
+				F88E5114202F985800C06E12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F88E50DC202F985700C06E12 /* Project object */;
+}
