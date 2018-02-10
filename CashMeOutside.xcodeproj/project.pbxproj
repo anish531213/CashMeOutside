@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48D8869E202FAC5600BFED2E /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D8869D202FAC5600BFED2E /* InitialViewController.swift */; };
+		48D886A0202FAC6E00BFED2E /* AmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D8869F202FAC6E00BFED2E /* AmountViewController.swift */; };
+		48D886A2202FAC7A00BFED2E /* AmountCreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D886A1202FAC7A00BFED2E /* AmountCreditViewController.swift */; };
+		48D886A4202FAC8800BFED2E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D886A3202FAC8800BFED2E /* MapViewController.swift */; };
 		4A148529D798D0C2C62EB5F9 /* Pods_CashMeOutsideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5D99CD62D062867CD3F42B /* Pods_CashMeOutsideTests.framework */; };
 		4E82E9B582DAD3A1B99FC052 /* Pods_CashMeOutside.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49B8A18E5E242DD584EAE35 /* Pods_CashMeOutside.framework */; };
 		79FFD7CDF26CD14D39E7E963 /* Pods_CashMeOutsideUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFADBA2E827B8AA89AA80B73 /* Pods_CashMeOutsideUITests.framework */; };
 		F88E50E8202F985700C06E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E50E7202F985700C06E12 /* AppDelegate.swift */; };
-		F88E50EA202F985700C06E12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E50E9202F985700C06E12 /* ViewController.swift */; };
 		F88E50ED202F985700C06E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88E50EB202F985700C06E12 /* Main.storyboard */; };
 		F88E50EF202F985800C06E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88E50EE202F985800C06E12 /* Assets.xcassets */; };
 		F88E50F2202F985800C06E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88E50F0202F985800C06E12 /* LaunchScreen.storyboard */; };
@@ -38,6 +41,10 @@
 
 /* Begin PBXFileReference section */
 		426CCCBD94AF724DBAB23485 /* Pods-CashMeOutsideUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashMeOutsideUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CashMeOutsideUITests/Pods-CashMeOutsideUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48D8869D202FAC5600BFED2E /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		48D8869F202FAC6E00BFED2E /* AmountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountViewController.swift; sourceTree = "<group>"; };
+		48D886A1202FAC7A00BFED2E /* AmountCreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountCreditViewController.swift; sourceTree = "<group>"; };
+		48D886A3202FAC8800BFED2E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		4B451101BEF6D9D9F8856B25 /* Pods-CashMeOutsideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashMeOutsideTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CashMeOutsideTests/Pods-CashMeOutsideTests.release.xcconfig"; sourceTree = "<group>"; };
 		7BF872BB9C129EC7CD41AB69 /* Pods-CashMeOutside.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashMeOutside.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CashMeOutside/Pods-CashMeOutside.debug.xcconfig"; sourceTree = "<group>"; };
 		92E2376757BABFCE44B3CBED /* Pods-CashMeOutsideUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashMeOutsideUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CashMeOutsideUITests/Pods-CashMeOutsideUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,7 +55,6 @@
 		F49B8A18E5E242DD584EAE35 /* Pods_CashMeOutside.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashMeOutside.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88E50E4202F985700C06E12 /* CashMeOutside.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashMeOutside.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88E50E7202F985700C06E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F88E50E9202F985700C06E12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F88E50EC202F985700C06E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F88E50EE202F985800C06E12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F88E50F1202F985800C06E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -138,11 +144,14 @@
 			isa = PBXGroup;
 			children = (
 				F88E50E7202F985700C06E12 /* AppDelegate.swift */,
-				F88E50E9202F985700C06E12 /* ViewController.swift */,
 				F88E50EB202F985700C06E12 /* Main.storyboard */,
 				F88E50EE202F985800C06E12 /* Assets.xcassets */,
 				F88E50F0202F985800C06E12 /* LaunchScreen.storyboard */,
 				F88E50F3202F985800C06E12 /* Info.plist */,
+				48D8869D202FAC5600BFED2E /* InitialViewController.swift */,
+				48D8869F202FAC6E00BFED2E /* AmountViewController.swift */,
+				48D886A1202FAC7A00BFED2E /* AmountCreditViewController.swift */,
+				48D886A3202FAC8800BFED2E /* MapViewController.swift */,
 			);
 			path = CashMeOutside;
 			sourceTree = "<group>";
@@ -460,7 +469,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F88E50EA202F985700C06E12 /* ViewController.swift in Sources */,
+				48D886A0202FAC6E00BFED2E /* AmountViewController.swift in Sources */,
+				48D886A4202FAC8800BFED2E /* MapViewController.swift in Sources */,
+				48D8869E202FAC5600BFED2E /* InitialViewController.swift in Sources */,
+				48D886A2202FAC7A00BFED2E /* AmountCreditViewController.swift in Sources */,
 				F88E50E8202F985700C06E12 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
