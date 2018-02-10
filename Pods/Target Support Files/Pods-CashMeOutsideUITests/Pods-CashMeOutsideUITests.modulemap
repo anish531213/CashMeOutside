@@ -1,0 +1,6 @@
+framework module Pods_CashMeOutsideUITests {
+  umbrella header "Pods-CashMeOutsideUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
