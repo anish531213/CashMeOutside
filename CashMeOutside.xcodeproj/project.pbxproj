@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47F3C622202FA6BA008CF29F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47F3C621202FA6BA008CF29F /* GoogleService-Info.plist */; };
+		47F3C623202FA6BA008CF29F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47F3C621202FA6BA008CF29F /* GoogleService-Info.plist */; };
+		47F3C624202FA6BA008CF29F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47F3C621202FA6BA008CF29F /* GoogleService-Info.plist */; };
 		4A148529D798D0C2C62EB5F9 /* Pods_CashMeOutsideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5D99CD62D062867CD3F42B /* Pods_CashMeOutsideTests.framework */; };
 		4E82E9B582DAD3A1B99FC052 /* Pods_CashMeOutside.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49B8A18E5E242DD584EAE35 /* Pods_CashMeOutside.framework */; };
 		79FFD7CDF26CD14D39E7E963 /* Pods_CashMeOutsideUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFADBA2E827B8AA89AA80B73 /* Pods_CashMeOutsideUITests.framework */; };
@@ -38,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		426CCCBD94AF724DBAB23485 /* Pods-CashMeOutsideUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashMeOutsideUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CashMeOutsideUITests/Pods-CashMeOutsideUITests.release.xcconfig"; sourceTree = "<group>"; };
+		47F3C621202FA6BA008CF29F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4B451101BEF6D9D9F8856B25 /* Pods-CashMeOutsideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashMeOutsideTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CashMeOutsideTests/Pods-CashMeOutsideTests.release.xcconfig"; sourceTree = "<group>"; };
 		7BF872BB9C129EC7CD41AB69 /* Pods-CashMeOutside.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashMeOutside.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CashMeOutside/Pods-CashMeOutside.debug.xcconfig"; sourceTree = "<group>"; };
 		92E2376757BABFCE44B3CBED /* Pods-CashMeOutsideUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashMeOutsideUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CashMeOutsideUITests/Pods-CashMeOutsideUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 				F88E50EE202F985800C06E12 /* Assets.xcassets */,
 				F88E50F0202F985800C06E12 /* LaunchScreen.storyboard */,
 				F88E50F3202F985800C06E12 /* Info.plist */,
+				47F3C621202FA6BA008CF29F /* GoogleService-Info.plist */,
 			);
 			path = CashMeOutside;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F88E50F2202F985800C06E12 /* LaunchScreen.storyboard in Resources */,
+				47F3C622202FA6BA008CF29F /* GoogleService-Info.plist in Resources */,
 				F88E50EF202F985800C06E12 /* Assets.xcassets in Resources */,
 				F88E50ED202F985700C06E12 /* Main.storyboard in Resources */,
 			);
@@ -291,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F3C623202FA6BA008CF29F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F3C624202FA6BA008CF29F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,9 +437,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CashMeOutside/Pods-CashMeOutside-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
