@@ -10,6 +10,7 @@ target 'CashMeOutside' do
   pod 'GooglePlaces', '2.4'
   pod 'Firebase/Core'
 pod 'Firebase/Database'
+pod 'Cosmos', '~> 14.0'
 
   target 'CashMeOutsideTests' do
     inherit! :search_paths

@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+
 protocol SlideButtonDelegate{
     func buttonStatus(status:String, sender:MMSlidingButton)
 }
@@ -186,6 +187,7 @@ protocol SlideButtonDelegate{
         if !unlocked{
             self.reset()
         }
+        
         
     }
     
