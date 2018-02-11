@@ -12,6 +12,7 @@
 		7B13EABE6F752F031F39DD4E /* Pods_CashMeOutsideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23B37021569F889A72ACEF2 /* Pods_CashMeOutsideTests.framework */; };
 		F8429F7C203036BF003B71BC /* RequestAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8429F7B203036BF003B71BC /* RequestAViewController.swift */; };
 		F8429F7E20303AB8003B71BC /* MMSlidingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8429F7D20303AB8003B71BC /* MMSlidingButton.swift */; };
+		F8429F802030617E003B71BC /* MyRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8429F7F2030617E003B71BC /* MyRoundButton.swift */; };
 		F88E5122202FAFFF00C06E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E5121202FAFFF00C06E12 /* AppDelegate.swift */; };
 		F88E5127202FAFFF00C06E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88E5125202FAFFF00C06E12 /* Main.storyboard */; };
 		F88E5129202FAFFF00C06E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88E5128202FAFFF00C06E12 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		F23B37021569F889A72ACEF2 /* Pods_CashMeOutsideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashMeOutsideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8429F7B203036BF003B71BC /* RequestAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAViewController.swift; sourceTree = "<group>"; };
 		F8429F7D20303AB8003B71BC /* MMSlidingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMSlidingButton.swift; sourceTree = "<group>"; };
+		F8429F7F2030617E003B71BC /* MyRoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRoundButton.swift; sourceTree = "<group>"; };
 		F88E511E202FAFFF00C06E12 /* CashMeOutside.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashMeOutside.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88E5121202FAFFF00C06E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F88E5126202FAFFF00C06E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				F88E515A202FFF0100C06E12 /* LoadingPageViewController.swift */,
 				F88E515C2030188000C06E12 /* AcceptedViewController.swift */,
 				F8429F7B203036BF003B71BC /* RequestAViewController.swift */,
+				F8429F7F2030617E003B71BC /* MyRoundButton.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -502,6 +505,7 @@
 				F88E5153202FB11D00C06E12 /* AmountCashViewController.swift in Sources */,
 				F88E5157202FB4D800C06E12 /* MapViewController.swift in Sources */,
 				F88E515B202FFF0100C06E12 /* LoadingPageViewController.swift in Sources */,
+				F8429F802030617E003B71BC /* MyRoundButton.swift in Sources */,
 				F8429F7C203036BF003B71BC /* RequestAViewController.swift in Sources */,
 				F88E5150202FB0DC00C06E12 /* InitialViewController.swift in Sources */,
 			);
