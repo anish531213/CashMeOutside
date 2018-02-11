@@ -42,7 +42,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5e-zH-BvM">
-                                <rect key="frame" x="137" y="304" width="80" height="39"/>
+                                <rect key="frame" x="147" y="314" width="80" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Send"/>
@@ -67,7 +67,6 @@
         <!--Amount View Controller-->
         <scene sceneID="HUF-hk-CI9">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xNQ-tE-LiB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="3R9-RU-GD7" customClass="AmountViewController" customModule="CashMeOutside" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BEN-iU-hty">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -101,13 +100,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="2GD-Id-qPy"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xNQ-tE-LiB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1191.2" y="131.78410794602701"/>
         </scene>
         <!--Amount Credit View Controller-->
         <scene sceneID="9kn-SD-mtd">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QKz-dT-6yo" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="P65-vC-Vtv" customClass="AmountCreditViewController" customModule="CashMeOutside" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d8B-qj-miX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -141,13 +140,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="X0L-5h-D0a"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QKz-dT-6yo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="842" y="843"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="BVq-DW-hme">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="paj-DP-gKi" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="q7N-BZ-x2z" customClass="MapViewController" customModule="CashMeOutside" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="61q-VJ-6cY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -157,13 +156,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="EhC-pf-qwd"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="paj-DP-gKi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1952.8" y="131.78410794602701"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mz7-GY-NC8">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cpg-ch-OQC" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="izu-yY-FYF" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Yqc-Ub-Rrm">
@@ -175,6 +174,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="eAc-sF-6MA"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cpg-ch-OQC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-366" y="132"/>
         </scene>
