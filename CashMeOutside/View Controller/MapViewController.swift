@@ -20,7 +20,7 @@ class MapViewController: UIViewController {
         super.viewDidLoad()
     
         
-        let camera = GMSCameraPosition.camera(withLatitude: -33.86, longitude: 151.20, zoom: 6.0)
+        let camera = GMSCameraPosition.camera(withLatitude: 38.898305, longitude: -77.010611, zoom: 13.0)
         let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
         view = mapView
         
