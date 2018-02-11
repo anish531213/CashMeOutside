@@ -47,8 +47,8 @@ class AcceptedViewController: UIViewController {
             let lng = coords?["longitude"]
         
     
-            let currentLat = 38.9224403
-            let currentLng =  -77.02109810000002
+            let currentLat = 38.895835
+            let currentLng =  -77.011761
             
             self.url = "https://www.google.com/maps/dir/\(lat!),\(lng!)/\(currentLat),\(currentLng)"
             
