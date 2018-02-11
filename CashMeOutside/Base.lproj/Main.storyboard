@@ -208,9 +208,14 @@
                                 <rect key="frame" x="20" y="672" width="374" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="t20-Bp-vf7" appends="YES" id="S9k-Ec-HmZ"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="Qxk-Wi-772"/>
                     </view>
                     <connections>
@@ -218,6 +223,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QSr-i4-ZH5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="t20-Bp-vf7">
+                    <connections>
+                        <segue destination="H4u-BX-6Zu" kind="show" id="n8G-X5-b4P"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2673.913043478261" y="-153.2608695652174"/>
         </scene>

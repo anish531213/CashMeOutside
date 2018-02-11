@@ -67,6 +67,7 @@ class RequestAViewController: UIViewController {
         
     }
     
+    
     func loadUrlWebView() {
         let requestURL = URL(string:url)
         // Place the URL in a URL Request.
