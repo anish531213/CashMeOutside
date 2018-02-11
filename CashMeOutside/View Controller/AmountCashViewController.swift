@@ -48,7 +48,8 @@ class AmountCashViewController: UIViewController, CLLocationManagerDelegate {
         ref = Database.database().reference()
         
  self.ref.child("receiver").child("anish").child("coords").setValue(["latitude":lat, "longitude": -1*lng])
-    //self.ref.child("receiver").child("anish").child("info").child("accepted").setValue("True")
+
+        self.ref.child("receiver").child("anish").child("info").child("accepted").setValue("False")
         
         print("locations = \(locValue.latitude) \(locValue.longitude)")
         

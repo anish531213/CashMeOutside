@@ -186,6 +186,7 @@ protocol SlideButtonDelegate{
         if !unlocked{
             self.reset()
         }
+        
     }
     
     //lock button animation (SUCCESS)
