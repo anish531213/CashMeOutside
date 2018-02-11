@@ -6,8 +6,10 @@ target 'CashMeOutside' do
   use_frameworks!
 
   # Pods for CashMeOutside
-  pod 'GoogleMaps'
-  pod 'GooglePlaces'
+  pod 'GoogleMaps', '2.4'
+  pod 'GooglePlaces', '2.4'
+  pod 'Firebase/Core'
+pod 'Firebase/Database'
 
   target 'CashMeOutsideTests' do
     inherit! :search_paths

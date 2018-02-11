@@ -18,8 +18,9 @@
 		F88E5142202FB00000C06E12 /* CashMeOutsideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E5141202FB00000C06E12 /* CashMeOutsideUITests.swift */; };
 		F88E5150202FB0DC00C06E12 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E514F202FB0DC00C06E12 /* InitialViewController.swift */; };
 		F88E5153202FB11D00C06E12 /* AmountCashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E5152202FB11D00C06E12 /* AmountCashViewController.swift */; };
-		F88E5155202FB12A00C06E12 /* AmountCreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E5154202FB12A00C06E12 /* AmountCreditViewController.swift */; };
 		F88E5157202FB4D800C06E12 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E5156202FB4D800C06E12 /* MapViewController.swift */; };
+		F88E5159202FEE8B00C06E12 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F88E5158202FEE8B00C06E12 /* GoogleService-Info.plist */; };
+		F88E515B202FFF0100C06E12 /* LoadingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E515A202FFF0100C06E12 /* LoadingPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +64,9 @@
 		F88E5143202FB00000C06E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F88E514F202FB0DC00C06E12 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		F88E5152202FB11D00C06E12 /* AmountCashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountCashViewController.swift; sourceTree = "<group>"; };
-		F88E5154202FB12A00C06E12 /* AmountCreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountCreditViewController.swift; sourceTree = "<group>"; };
 		F88E5156202FB4D800C06E12 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F88E5158202FEE8B00C06E12 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F88E515A202FFF0100C06E12 /* LoadingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				F88E5125202FAFFF00C06E12 /* Main.storyboard */,
 				F88E5128202FAFFF00C06E12 /* Assets.xcassets */,
 				F88E512A202FAFFF00C06E12 /* LaunchScreen.storyboard */,
+				F88E5158202FEE8B00C06E12 /* GoogleService-Info.plist */,
 				F88E512D202FAFFF00C06E12 /* Info.plist */,
 			);
 			path = CashMeOutside;
@@ -176,8 +179,8 @@
 			children = (
 				F88E514F202FB0DC00C06E12 /* InitialViewController.swift */,
 				F88E5152202FB11D00C06E12 /* AmountCashViewController.swift */,
-				F88E5154202FB12A00C06E12 /* AmountCreditViewController.swift */,
 				F88E5156202FB4D800C06E12 /* MapViewController.swift */,
+				F88E515A202FFF0100C06E12 /* LoadingPageViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F88E512C202FAFFF00C06E12 /* LaunchScreen.storyboard in Resources */,
+				F88E5159202FEE8B00C06E12 /* GoogleService-Info.plist in Resources */,
 				F88E5129202FAFFF00C06E12 /* Assets.xcassets in Resources */,
 				F88E5127202FAFFF00C06E12 /* Main.storyboard in Resources */,
 			);
@@ -442,9 +446,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CashMeOutside/Pods-CashMeOutside-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -478,8 +489,8 @@
 			files = (
 				F88E5122202FAFFF00C06E12 /* AppDelegate.swift in Sources */,
 				F88E5153202FB11D00C06E12 /* AmountCashViewController.swift in Sources */,
-				F88E5155202FB12A00C06E12 /* AmountCreditViewController.swift in Sources */,
 				F88E5157202FB4D800C06E12 /* MapViewController.swift in Sources */,
+				F88E515B202FFF0100C06E12 /* LoadingPageViewController.swift in Sources */,
 				F88E5150202FB0DC00C06E12 /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

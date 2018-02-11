@@ -8,12 +8,10 @@
 
 import UIKit
 import GoogleMaps
+import MapKit
 
 class MapViewController: UIViewController {
 
-    @IBOutlet weak var mapOnlyView: UIView!
-    
-    
     override func viewDidLoad() {
         
         
@@ -22,12 +20,29 @@ class MapViewController: UIViewController {
         
         let camera = GMSCameraPosition.camera(withLatitude: 38.898305, longitude: -77.010611, zoom: 13.0)
         let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
+        
+        
+        
+        
+        
+//        if let mylocation = mapView.myLocation {
+//            print("User's location: \(mylocation)")
+//        } else {
+//            print("User's location is unknown")
+//        }
+        
         view = mapView
+        
+        
+      
         
 
         // Do any additional setup after loading the view.
     }
 
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        print(locations[0])
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -21,6 +21,11 @@ class InitialViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        let detailViewController = segue.destination as! AmountCashViewController
+//        detailViewController.textData = "Anish"
+//    }
+    
 
     /*
     // MARK: - Navigation
