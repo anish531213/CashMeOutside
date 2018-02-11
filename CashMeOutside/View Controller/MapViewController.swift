@@ -9,8 +9,11 @@
 import UIKit
 import GoogleMaps
 import MapKit
+import FirebaseDatabase
 
-class MapViewController: UIViewController {
+class MapViewController: UIViewController, GMSMapViewDelegate {
+    
+    var ref: DatabaseReference!
 
     override func viewDidLoad() {
         
@@ -22,7 +25,7 @@ class MapViewController: UIViewController {
         let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
         
         
-        
+        mapView.delegate = self
         
         
 //        if let mylocation = mapView.myLocation {
@@ -31,17 +34,30 @@ class MapViewController: UIViewController {
 //            print("User's location is unknown")
 //        }
         
-        view = mapView
-        
-        
-      
-        
 
+        mapView.settings.myLocationButton = true
+        
+        view = mapView
         // Do any additional setup after loading the view.
     }
 
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        print(locations[0])
+    func mapView(_ mapView: GMSMapView, didTapAt coordinate: CLLocationCoordinate2D) {
+        print("You tapped at \(coordinate.latitude), \(coordinate.longitude)")
+        performViewSegue()
+        writeFirebaseListener()
+    }
+   
+    
+    func writeFirebaseListener() {
+        ref = Database.database().reference()
+        
+    self.ref.child("receiver").child("anish").child("info").child("accepted").setValue("True")
+    }
+    
+    func performViewSegue() {
+        let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let userVC = mainStoryboard.instantiateViewController(withIdentifier: "acceptedVC") as! AcceptedViewController
+        present(userVC, animated: true, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {

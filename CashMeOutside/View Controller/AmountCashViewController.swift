@@ -47,9 +47,12 @@ class AmountCashViewController: UIViewController, CLLocationManagerDelegate {
         
         ref = Database.database().reference()
         
- self.ref.child("receiver").child("anish").child("coords").setValue(["latitude":lat, "longitude": lng])
+ self.ref.child("receiver").child("anish").child("coords").setValue(["latitude":lat, "longitude": -1*lng])
+    //self.ref.child("receiver").child("anish").child("info").child("accepted").setValue("True")
         
         print("locations = \(locValue.latitude) \(locValue.longitude)")
+        
+        locationManager.stopUpdatingLocation()
     }
     
     override func didReceiveMemoryWarning() {
